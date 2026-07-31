@@ -1,0 +1,6 @@
+.auth-card .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size: 1.25rem; margin-bottom: 6px; }
+.auth-card .muted { color: var(--muted); margin-bottom:18px; }
+.auth-card .form-floating { margin-bottom: 14px; }
+.auth-card .form-check { margin-top: 6px; }
+.auth-card .divider { display:flex; align-items:center; gap:10px; color: var(--muted); margin: 20px 0; }
+.auth-card .divider::before, .auth-card .divider::after { content:''; flex:1; height:1px; background: var(--border); }

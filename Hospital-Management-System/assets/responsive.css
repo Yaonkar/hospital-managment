@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  .sidebar { display:none; }
+  .main-area { padding: 16px; }
+  .topbar { flex-wrap: wrap; }
+}
+@media (max-width: 768px) {
+  .dashboard-grid { grid-template-columns: 1fr 1fr; }
+  .topbar-actions { width: 100%; justify-content:flex-end; }
+}
+@media (max-width: 576px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+  .auth-card { padding: 22px; }
+  .hero { padding: 24px 0; }
+  .topbar .search-wrap { width: 100%; max-width:none; }
+}
